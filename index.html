@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap Surprise Studio | Luxury Digital Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-logo">
+            <img src="https://i.imgur.com/UlntNHz.jpeg" alt="Tap Surprise Studio" class="logo-img">
+            <h1 class="loading-title">Tap Surprise Studio</h1>
+        </div>
+    </div>
+
+    <!-- Noise Overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Language Toggle -->
+    <button class="lang-toggle" id="langToggle">
+        <span class="lang-text">EN</span>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="main-nav" id="mainNav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="https://i.imgur.com/UlntNHz.jpeg" alt="Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" data-en="About" data-ar="من نحن">من نحن</a></li>
+                <li><a href="#services" data-en="Services" data-ar="خدماتنا">خدماتنا</a></li>
+                <li><a href="#work" data-en="How We Work" data-ar="كيف نعمل">كيف نعمل</a></li>
+                <li><a href="#contact" data-en="Contact" data-ar="تواصل معنا">تواصل معنا</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="gradient-mesh"></div>
+            <div class="particles" id="particles"></div>
+            <div class="gold-light"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-en="We build digital brands that create impact 👑" data-ar="نبني مشاريع رقمية تصنع تأثيرًا 👑">
+                نبني مشاريع رقمية تصنع تأثيرًا 👑
+            </h1>
+            <p class="hero-subtitle" data-en="From idea… to a real brand supported by design, strategy, and AI." data-ar="من الفكرة… إلى براند حقيقي مدعوم بالتصميم والاستراتيجية والذكاء الاصطناعي.">
+                من الفكرة… إلى براند حقيقي مدعوم بالتصميم والاستراتيجية والذكاء الاصطناعي.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary" data-en="Start Your Project" data-ar="ابدئي مشروعك الآن">
+                    ابدئي مشروعك الآن
+                </a>
+                <a href="#portfolio" class="btn-secondary" data-en="View Our Work" data-ar="استكشفي أعمالنا">
+                    استكشفي أعمالنا
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategic Positioning Section -->
+    <section class="strategic" id="strategic">
+        <div class="container">
+            <h2 class="section-title" data-en="Why Tap Surprise Studio?" data-ar="لماذا تاب سوربرايز ستوديو؟">
+                لماذا تاب سوربرايز ستوديو؟
+            </h2>
+            <div class="strategic-grid">
+                <div class="strategic-card">
+                    <div class="card-icon">💡</div>
+                    <h3 data-en="Strategic Brand Thinking" data-ar="التفكير الاستراتيجي في البراند">التفكير الاستراتيجي في البراند</h3>
+                    <p data-en="We build brands with purpose, positioning you uniquely in your market." data-ar="نبني براندات لها رسالة، ونضعك في مكانة فريدة في سوقك.">نبني براندات لها رسالة، ونضعك في مكانة فريدة في سوقك.</p>
+                </div>
+                <div class="strategic-card">
+                    <div class="card-icon">🎯</div>
+                    <h3 data-en="Conversion-Focused Websites" data-ar="مواقع مصممة للتحويل">مواقع مصممة للتحويل</h3>
+                    <p data-en="Every pixel is designed to turn visitors into loyal customers." data-ar="كل بكسل مصمم ليتحول الزوار إلى عملاء أوفياء.">كل بكسل مصمم ليتحول الزوار إلى عملاء أوفياء.</p>
+                </div>
+                <div class="strategic-card">
+                    <div class="card-icon">🤖</div>
+                    <h3 data-en="Automation & AI Systems" data-ar="أنظمة الأتمتة والذكاء الاصطناعي">أنظمة الأتمتة والذكاء الاصطناعي</h3>
+                    <p data-en="Smart systems that work 24/7 so you can focus on growing." data-ar="أنظمة ذكية تعمل على مدار الساعة fokus على نمو مشروعك.">أنظمة ذكية تعمل على مدار الساعة fokus على نمو مشروعك.</p>
+                </div>
+                <div class="strategic-card">
+                    <div class="card-icon">✨</div>
+                    <h3 data-en="Feminine Luxury Digital Identity" data-ar="هوية رقمية فاخرة أنثوية">هوية رقمية فاخرة أنثوية</h3>
+                    <p data-en="Elegant aesthetics that communicate trust, quality, and sophistication." data-ar="جماليات راقية توصل الثقة والجودة والتميز.">جماليات راقية توصل الثقة والجودة والتميز.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-visual">
+                    <div class="logo-frame">
+                        <img src="https://i.imgur.com/UlntNHz.jpeg" alt="Tap Surprise Studio">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title" data-en="Building Dreams Digitally" data-ar="نبني الأحلام رقميًا">نبني الأحلام رقميًا</h2>
+                    <p class="about-text" data-en="At Tap Surprise Studio, we believe every small idea can become a real brand when built the right way." data-ar="في Tap Surprise Studio، نؤمن أن كل فكرة صغيرة يمكن أن تتحول إلى براند حقيقي عند بنائها بطريقة صحيحة.">
+                        في Tap Surprise Studio، نؤمن أن كل فكرة صغيرة يمكن أن تتحول إلى براند حقيقي عند بنائها بطريقة صحيحة.
+                    </p>
+                    <p class="about-text" data-en="We don't just design websites... We create integrated digital experiences that help startups appear with confidence, sell with intelligence, and grow steadily." data-ar="نحن لا نصمم مواقع فقط… بل نصنع تجربة رقمية متكاملة تساعد المشاريع الناشئة على الظهور بثقة، والبيع بذكاء، والنمو بثبات.">
+                        نحن لا نصمم مواقع فقط… بل نصنع تجربة رقمية متكاملة تساعد المشاريع الناشئة على الظهور بثقة، والبيع بذكاء، والنمو بثبات.
+                    </p>
+                    <p class="about-text" data-en="We combine luxurious design, strategic thinking, and AI solutions to give your project the presence it deserves." data-ar="نجمع بين التصميم الفاخر، والتفكير الاستراتيجي، وحلول الذكاء الاصطناعي، لنمنح مشروعك حضورًا يليق به.">
+                        نجمع بين التصميم الفاخر، والتفكير الاستراتيجي، وحلول الذكاء الاصطناعي، لنمنح مشروعك حضورًا يليق به.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title" data-en="Our Premium Services" data-ar="خدماتنا المميزة">خدماتنا المميزة</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3 data-en="Custom Business Websites" data-ar="مواقع أعمال مخصصة">مواقع أعمال مخصصة</h3>
+                    <p data-en="Professional websites that reflect your brand's unique identity and convert visitors." data-ar="مواقع احترافية تعكس هوية براندك الفريدة وتحول الزوار إلى عملاء.">مواقع احترافية تعكس هوية براندك الفريدة وتحول الزوار إلى عملاء.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛍️</div>
+                    <h3 data-en="DM-Integrated Stores" data-ar="متاجر متكاملة مع DM">متاجر متكاملة مع DM</h3>
+                    <p data-en="Beautiful stores with seamless Instagram DM ordering system." data-ar="متاجر جميلة مع نظام طلب سلس عبر إنستغرام DM.">متاجر جميلة مع نظام طلب سلس عبر إنستغرام DM.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎁</div>
+                    <h3 data-en="Digital Surprise Experiences" data-ar="تجارب مفاجأة رقمية">تجارب مفاجأة رقمية</h3>
+                    <p data-en="Interactive pages that create unforgettable moments for your customers." data-ar="صفحات تفاعلية تخلق لحظات لا تُنسى لعملائك.">صفحات تفاعلية تخلق لحظات لا تُنسى لعملائك.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3 data-en="Automation Systems" data-ar="أنظمة الأتمتة">أنظمة الأتمتة</h3>
+                    <p data-en="Automated workflows that save time and provide instant customer responses." data-ar="سير عمل آلي يوفر الوقت ويوفر استجابات فورية للعملاء.">سير عمل آلي يوفر الوقت ويوفر استجابات فورية للعملاء.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🧠</div>
+                    <h3 data-en="AI-Powered Tools" data-ar="أدوات مدعومة بالذكاء الاصطناعي">أدوات مدعومة بالذكاء الاصطناعي</h3>
+                    <p data-en="Smart tools that enhance customer experience and business efficiency." data-ar="أدوات ذكية تعزز تجربة العميل وكفاءة العمل.">أدوات ذكية تعزز تجربة العميل وكفاءة العمل.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3 data-en="Brand Launch Strategy" data-ar="استراتيجية إطلاق البراند">استراتيجية إطلاق البراند</h3>
+                    <p data-en="Complete go-to-market strategy with digital presence optimization." data-ar="استراتيجية كاملة للوصول للسوق مع تحسين الحضور الرقمي.">استراتيجية كاملة للوصول للسوق مع تحسين الحضور الرقمي.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Work Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title" data-en="Our Work is Growing ✨" data-ar="أعمالنا تنمو ✨">أعمالنا تنمو ✨</h2>
+            <div class="coming-soon-content">
+                <p class="coming-soon-text" data-en="We are currently building real partnerships. Real case studies will be showcased soon." data-ar="نحن في مرحلة بناء شراكات حقيقية، وسيتم عرض دراسات حالة حقيقية قريبًا.">نحن في مرحلة بناء شراكات حقيقية، وسيتم عرض دراسات حالة حقيقية قريبًا.</p>
+                <a href="https://www.instagram.com/" target="_blank" class="btn-cta">ابدئي مشروعك الآن 💌</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Work Section -->
+    <section class="how-we-work" id="work">
+        <div class="container">
+            <h2 class="section-title" data-en="How We Work" data-ar="كيف نعمل">كيف نعمل</h2>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-item" data-step="01">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="step-number">01</span>
+                        <h3 data-en="Understand Vision" data-ar="فهم الرؤية">فهم الرؤية</h3>
+                        <p data-en="We listen to your dreams and analyze your market deeply." data-ar="نستمع لأحلامك ونحلل سوقك بعمق.">نستمع لأحلامك ونحلل سوقك بعمق.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-step="02">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="step-number">02</span>
+                        <h3 data-en="Structure Strategy" data-ar="بناء الاستراتيجية">بناء الاستراتيجية</h3>
+                        <p data-en="We create a custom roadmap for your digital success." data-ar="ننشئ خارطة طريق مخصصة لنجاحك الرقمي.">ننشئ خارطة طريق مخصصة لنجاحك الرقمي.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-step="03">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="step-number">03</span>
+                        <h3 data-en="Design Experience" data-ar="تصميم التجربة">تصميم التجربة</h3>
+                        <p data-en="We craft beautiful interfaces that convert visitors to customers." data-ar="نصنع واجهات جميلة تحوّل الزوار إلى عملاء.">نصنع واجهات جميلة تحوّل الزوار إلى عملاء.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-step="04">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="step-number">04</span>
+                        <h3 data-en="Launch System" data-ar="إطلاق النظام">إطلاق النظام</h3>
+                        <p data-en="We deploy your project with full testing and optimization." data-ar="نطلق مشروعك مع اختبار كامل وتحسين.">نطلق مشروعك مع اختبار كامل وتحسين.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-step="05">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="step-number">05</span>
+                        <h3 data-en="Support Growth" data-ar="دعم النمو">دعم النمو</h3>
+                        <p data-en="We stay with you to ensure continuous growth and improvement." dataار="نبقى معك لضمان النمو والتحسين المستمر.">نبقى معك لضمان النمو والتحسين المستمر.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact-form">
+        <div class="container">
+            <h2 class="section-title" data-en="Get In Touch" data-ar="تواصل معنا">تواصل معنا</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <p class="contact-email">
+                        <a href="mailto:tapsurprisestudio@gmail.com">tapsurprisestudio@gmail.com</a>
+                    </p>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="fullName" name="fullName" placeholder="الاسم الكامل" data-placeholder-en="Full Name" data-placeholder-ar="الاسم الكامل" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="البريد الإلكتروني" data-placeholder-en="Email" data-placeholder-ar="البريد الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="رسالتك" data-placeholder-en="Your Message" data-placeholder-ar="رسالتك" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">إرسال الرسالة ✨</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Power CTA Section -->
+    <section class="power-cta" id="contact">
+        <div class="container">
+            <div class="cta-content">
+                <h2 data-en="Your project deserves to be built the right way 🤍" data-ar="مشروعك يستحق أن يُبنى بطريقة صحيحة 🤍">
+                    مشروعك يستحق أن يُبنى بطريقة صحيحة 🤍
+                </h2>
+                <p data-en="Start today… don't wait for perfection." data-ar="ابدئي اليوم… ولا تنتظري الكمال.">
+                    ابدئي اليوم… ولا تنتظري الكمال.
+                </p>
+                <a href="#chatbot" class="btn-cta" data-en="Start Now" data-ar="ابدئي الآن">
+                    ابدئي الآن
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="https://i.imgur.com/UlntNHz.jpeg" alt="Tap Surprise Studio" class="footer-logo">
+                <p class="footer-tagline">Supporting Small Dreams Globally ✨</p>
+            </div>
+            <div class="footer-contact">
+                <a href="mailto:tapsurprisestudio@gmail.com" class="footer-email">tapsurprisestudio@gmail.com</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/" target="_blank" class="social-link">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+            </div>
+        </div>
+        <p>Tap Surprise Studio © 2026</p>
+    </footer>
+
+    <!-- Chatbot -->
+    <div class="chatbot-wrapper" id="chatbot">
+        <button class="chatbot-toggle" id="chatbotToggle">
+            <span class="chat-icon">💬</span>
+        </button>
+        <div class="chatbot-card" id="chatbotCard">
+            <div class="chatbot-header">
+                <span class="chatbot-title">Tap Surprise Assistant</span>
+                <button class="chatbot-close" id="chatbotClose">×</button>
+            </div>
+            <div class="chatbot-messages" id="chatbotMessages">
+                <div class="message bot-message">
+                    <p>مرحبًا 🤍 أنا مساعد Tap Surprise Studio.<br>سأطرح عليك بعض الأسئلة لنحدد أفضل حل لمشروعك.</p>
+                </div>
+            </div>
+            <div class="chatbot-options" id="chatbotOptions">
+                <button class="option-btn" data-option="website">أريد موقع لمشروعي</button>
+                <button class="option-btn" data-option="automation">أحتاج أتمتة وردود</button>
+                <button class="option-btn" data-option="surprise">أريد صفحة مفاجأة رقمية</button>
+                <button class="option-btn" data-option="help">لا أعرف من أين أبدأ</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
